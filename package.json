@@ -1,0 +1,17 @@
+{
+    "name": "ai-editor",
+    "version": "1.0.0",
+    "description": "AI Response Editor Full Stack Application",
+    "scripts": {
+      "start": "concurrently \"npm run server\" \"npm run client\" \"npm run bi-tool\"",
+      "server": "npm start --prefix server",
+      "client": "npm start --prefix client",
+      "bi-tool": "cd bi-tool && npm run sources && npm run dev",
+      "install-all": "npm install && npm install --prefix client && npm install --prefix server && npm install --prefix bi-tool",
+      "build": "npm run build --prefix client",
+      "deploy": "npm run build && npm start --prefix server"
+    },
+    "devDependencies": {
+      "concurrently": "^8.2.0"
+    }
+  }

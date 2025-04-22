@@ -1,0 +1,15 @@
+sources:
+  - name: "Vietjet Cloudwatch Data"
+    tables:
+      - name: "cloudwatch.sum_endpoint_request_30d"
+        columns:
+          - "ClientIP"
+          - "days_slot"
+          - "EndpointURL"
+          - "Total_Endpoint_Requests"
+      - name: "cloudwatch.sum_failed_request_30d"
+        columns:
+          - "ClientIP"
+          - "days_slot"
+          - "csmethod"
+          - "Total_Failed_Requests"
