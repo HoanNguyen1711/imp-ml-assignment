@@ -17,7 +17,7 @@ A web application that uses Claude AI to generate interactive dashboards based o
 ## Project Structure
 
 ```
-thesis/
+imp-ml-assignment/
 ├── client/          # React frontend
 ├── server/          # Express backend
 ├── bi-tool/         # Evidence.dev integration
@@ -29,7 +29,7 @@ thesis/
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd thesis
+   cd imp-ml-assignment
    ```
 
 2. Install dependencies:
